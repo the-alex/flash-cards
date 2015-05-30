@@ -1,10 +1,21 @@
 extends layout
 
 block content
-  h1 Testing ...
-  ul
-    - for card in deck
-      li This is a word => #{card.word}
-      li This is it's def => #{card.definition}
-      br
-
+  script(type="text/javascript").
+    var index = #{index};
+  div.container
+    div.row
+      div.col-sm-3
+        // Nothing goes here!
+      div.col-sm-6
+        h3 Word
+        div#word
+          p=deck[index].word
+        h3 Definition
+        div#definition(style="visibility: hidden")
+          p=deck[index].definition
+        button(onclick="window.location.href='/?index=' + --index") Prev
+        button(onclick="var def = document.getElementById('definition'); def.style.visibility = 'visible'") Show Def
+        button(onclick="window.location.href='/?index=' + ++index") Next
+      div.col-sm-3
+        // Nothing goes here!

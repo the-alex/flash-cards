@@ -9,11 +9,20 @@ var create_deck = require('card-parser');
 /* GET home page. */
 router.get('/', function(req, res, next) {
   // For now, load default deck for testing ...
-  var deck = create_deck('/Users/theProfessional/Development/repositories/flash-cards/node_modules/card-parser/test1.txt');
-  // var deck = create_deck('/Users/theProfessional/Desktop/word_list_psych.md');
+  // var deck = create_deck('/Users/theProfessional/Development/repositories/flash-cards/node_modules/card-parser/test1.txt');
+  var deck = create_deck('/Users/theProfessional/Desktop/word_list_psych.md');
+
+  var index = 0;
+  // Get the index from the params if there was one.
+  if (!(index = req.query.index)) {
+    index = 0;
+  }
+
+
   res.render('index', {
     title: 'Express',
-    deck: deck
+    deck: deck,
+    index: index
   });
 });
 
