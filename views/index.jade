@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1 Testing ...
+  ul
+    - for card in deck
+      li This is a word => #{card.word}
+      li This is it's def => #{card.definition}
+      br
+
