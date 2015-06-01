@@ -18,6 +18,9 @@ router.get('/', function(req, res, next) {
     index = 0;
   }
 
+  if (req.query.rand == "true") {
+    index = Math.floor(Math.random() * deck.length);
+  }
 
   res.render('index', {
     title: 'Express',
