@@ -8,15 +8,15 @@ block content
       div.col-sm-3
         // Nothing goes here!
       div.col-sm-6
-        h3 Word
-        div#word
-          p=deck[index].word
-        h3 Definition
-        div#definition(style="visibility: hidden")
-          p=deck[index].definition
         button(onclick="window.location.href='/?index=' + --index") Prev
         button(onclick="var def = document.getElementById('definition'); def.style.visibility = 'visible'") Show Def
         button(onclick="window.location.href='/?index=' + ++index") Next
         button(onclick="window.location.href='/?rand=true'") Rand
+        h1 Word
+        div#word
+          p=deck[index].word
+        h1 Definition
+        div#definition(style="visibility: hidden")
+          p=deck[index].definition
       div.col-sm-3
         // Nothing goes here!
