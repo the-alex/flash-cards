@@ -1,5 +1,6 @@
 var express = require('express');
-var router = express.Router();
+var router  = express.Router();
+var fs      = require('fs');
 
 // Custom deck creating function.
 // Takes path/to/file as argument.
@@ -8,25 +9,32 @@ var create_deck = require('card-parser');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  // For now, load default deck for testing ...
-  // var deck = create_deck('/Users/theProfessional/Development/repositories/flash-cards/node_modules/card-parser/test1.txt');
-  var deck = create_deck(process.cwd() + '/card_files/test1.txt');
+  // Adding Selection Feature -------
+  // Get the contents of the "card_files/" directory.
+  // var availible_decks = fs.readdirSync('card_files/');
 
-  var index = 0;
-  // Get the index from the params if there was one.
-  if (!(index = req.query.index)) {
-    index = 0;
-  }
 
-  if (req.query.rand == "true") {
-    index = Math.floor(Math.random() * deck.length);
-  }
+  // var deck = create_deck(process.cwd() + '/card_files/test1.txt');
+
+  // var index = 0;
+  // // Get the index from the params if there was one.
+  // if (!(index = req.query.index)) {
+  //   index = 0;
+  // }
+  //
+  // if (req.query.rand == "true") {
+  //   index = Math.floor(Math.random() * deck.length);
+  // }
 
   res.render('index', {
-    title: 'Express',
-    deck: deck,
-    index: index
+    // Items to pass to jade go here.
   });
 });
+
+// TODO: Add post for deck selection form sumbition
+router.post('/', function (req, res, next) {
+
+});
+
 
 module.exports = router;

@@ -24,15 +24,19 @@ Flash-cards Project Notes
                 update_DOM(next_card);
             }```
 
-## Misc
-Testing
-* `$ DEBUG=flash-cards:* npm start`
-
-
 ## TODO
-* Implement preliminary UI
-    * Add card controls
-        * Next
-        * Show Def
-        * Prev
-    * Add global counter for deck index.
+* Add a selection form to the index page.
+    * Allow a user to select a deck of cards from a list.
+    * Post to index with desired deck.
+    * Allow buttons to select cards via asynch get.
+        * Can we create an api sort of thing that gets a json and updates the page?
+
+## Planned Features
+
+* Add Database Functionality
+* Select Card Deck
+* User Card Filtering
+    * Allow user to select the cards they want from a dropdown.
+* User Score/Stat Tracking
+* Single Page Revision
+
