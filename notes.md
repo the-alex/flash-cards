@@ -1,6 +1,13 @@
 Flash-cards Project Notes
 =========================
 
+## Where was I?
+I finally got migrate.js to work. The Psych Midterm 2 cards are in the db "FCD_test" in the collection "decks". I should be able to access the whole thing. Now ...
+
+* I need to make an API that allows me to get specific elements from that DB.
+* Essentially, now that the data is in the DB, I should be retrieving from that location instead of rebuilding the damn deck every time.
+
+
 ## Scratch
 
 * Does this work as intended?
