@@ -65,3 +65,14 @@ Resistance [General Adaptation Syndrome] :: Body is on 'high alert'
 Exhaustion [General Adaptation Syndrome] :: Increased physiological vulnverability to stress.
 Stressors :: Specific events or chronic pressures that place demands on a person and/or threatens well-being.
 Coping :: What strageties you use to buffer against the stress cycle. Active efforts to master, reduce or accept the demands created by stress.
+Repressive coping :: avoiding the situation or thoughts of the stressor.
+Rational coping :: Facing a stressor and working to overcome it.
+Displaced Aggression [Maladaptive Coping Strategies] :: Harmful act to someone verbally or physically, who is not actually the true “object” of the hostility.
+Catharsis [Maladaptive Coping Strategies] :: Realse of emotional tension.
+Self-Indulgence [Maladaptive Coping Strategies] :: Compensate for depreived/frustrated feelings by trying to promote a feeling of satisfaction in another area.
+Constructive Coping Strategies :: healthy efforts to deal with a stressful event making one more resilient to the stressor(s)
+Humor :: The use of humor can help cope with stress; can defuse some situations
+Relaxation :: Reduces tension by relaxing muscles in the body, slowing cortical activity, heart rate, respiration and blood pressure
+Social Supports :: Presence of social supports provide adaptive coping/release from pressures. Further underscores the benefits of family dinners.
+New Milgram Study (When did they stop?) :: 150
+
