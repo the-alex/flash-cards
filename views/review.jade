@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  div.container-fluid
+    div.row
+      div.col-sm-3
+        h1 Review!
+      div.col-sm-6
+        div#card
+          h3#word #{card.word}
+          p#definition #{card.definition}
+      div.col-sm-3
+        button.btn.btn-default(type='button' onclick='show_def()') Show Definition
+        button.btn.btn-default(type='button') Get Next Card
+
+Get Next Card

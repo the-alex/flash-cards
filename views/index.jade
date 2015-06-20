@@ -2,16 +2,17 @@ extends layout
 
 block content
   div.container-fluid
-    script(type="text/javascript").
-      // Define any variables from template here, so they may be assigned to the page scope.
     div.row
       div.col-sm-3
         // Nothing goes here!
       div.col-sm-6
         // Everything goes here!
         h1 Flash Cards, yo!
-        form(name="options", action="/review", method="POST")
 
+        form(name="options", action="/review", method="GET")
+          select(name="deck_choice")
+            - for deck in available_decks
+              option(value=deck) #{deck}
           input(type="submit", value="Review Selected Deck")
       div.col-sm-3
         // Nothing goes here!

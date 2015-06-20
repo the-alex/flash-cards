@@ -7,7 +7,6 @@ Fetal Stage :: 8th week of prenatal development and onward.
 Prenatal Development (Phases of development) :: Germinal Phase (Conception - 2 weeks) -> Embryonic Stage -> Fetal Stage
 Lanugo :: Fine, wooly hair over the body.
 Vernix :: Waxy coating that collects on the surface of the child.
-
 Cephalocaudal :: "Top to bottom" motor skills emerge from head to feet.
 Proximodistal :: "Inside-to-outside rule" motor skills emerge in a  sequence of center moving outward.
 Teratogens :: Harmful toxins that affect development resulting in defect, damage or anomaly. The degeree to which teratogens will affect an infant can be determined by dose, age of child upon exposure, genetics, interaction with environment like stress, nutrition, or lack of medical care.

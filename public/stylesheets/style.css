@@ -11,3 +11,6 @@ p {
   font-size: 2em;
 }
 
+#definition {
+    visibility: hidden;
+}

@@ -1,40 +1,83 @@
-var express = require('express');
-var router  = express.Router();
-var fs      = require('fs');
+var express     = require('express');
+var router      = express.Router();
+var fs          = require('fs');
+var MongoClient = require('mongodb').MongoClient;
 
-// Custom deck creating function.
-// Takes path/to/file as argument.
-// Returns array of cards.
-var create_deck = require('card-parser');
+var mongo_url = 'mongodb://localhost:27017/FCD_test';
+
+var get_available_decks = function (callback) {
+  // Connect to DB
+  MongoClient.connect(mongo_url, function (err, db) {
+    if (err) throw err;
+
+    console.log('Successfully Connected!');
+
+    db.collection('decks', function (err, col) {
+      if (err) throw err;
+
+      col.distinct('decks', function (err, distinct_deck_names) {
+        if (err) throw err;
+        
+        db.close();
+        callback(null, distinct_deck_names);
+
+      });
+    });
+  
+  });
+}
+
+var get_deck = function (deck, callback) {
+
+  MongoClient.connect(mongo_url, function (err, db) {
+    if (err) throw err;
+
+    console.log('Successfully Connected!');
+
+    db.collection('decks', function (err, col) {
+      if (err) throw err;
+
+      col.find({decks: deck}).toArray(function (err, review_deck) {
+        if (err) throw err;
+        
+        db.close();
+        callback(null, review_deck);
+
+      });
+    });
+  
+  });
+}
+
+var get_random_card = function (deck) {
+  // Returns a random card in the deck array.
+  return deck[Math.floor(Math.random() * deck.length)];
+}
+
+// TODO :: Actually make that DB handler.
+// var card_db = require('card-db');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  // Adding Selection Feature -------
-  // Get the contents of the "card_files/" directory.
-  // var availible_decks = fs.readdirSync('card_files/');
-
-
-  // var deck = create_deck(process.cwd() + '/card_files/test1.txt');
-
-  // var index = 0;
-  // // Get the index from the params if there was one.
-  // if (!(index = req.query.index)) {
-  //   index = 0;
-  // }
-  //
-  // if (req.query.rand == "true") {
-  //   index = Math.floor(Math.random() * deck.length);
-  // }
-
-  res.render('index', {
-    // Items to pass to jade go here.
+  // Get available decks.
+  get_available_decks(function (err, decks) {
+    res.render('index', {
+      available_decks: decks
+    });
   });
 });
 
-// TODO: Add post for deck selection form sumbition
-router.post('/', function (req, res, next) {
+router.get('/review', function (req, res, next) {
+  
+  get_deck(req.query.deck_choice, function (err, deck) {
+    console.log(deck);
+    
+    var card = get_random_card(deck);
 
+    res.render('review', {
+      card: card
+    });
+  });
 });
-
 
 module.exports = router;
