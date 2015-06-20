@@ -49,9 +49,12 @@ var get_deck = function (deck, callback) {
   });
 }
 
-var get_random_card = function (deck) {
+var get_random_card = function (deck, callback) {
   // Returns a random card in the deck array.
-  return deck[Math.floor(Math.random() * deck.length)];
+  get_deck(deck, function (err, deck_array) {
+    var random_card = deck_array[Math.floor(Math.random() * deck_array.length)];
+    callback(null, random_card);
+  });
 }
 
 // TODO :: Actually make that DB handler.
@@ -67,15 +70,26 @@ router.get('/', function(req, res, next) {
   });
 });
 
+
+router.get('/rand', function (req, res, next) {
+  var deck_choice = req.query.deck_choice;
+
+  get_random_card(deck_choice, function (err, card) {
+    res.write
+    res.json(card);
+  });
+});
+
 router.get('/review', function (req, res, next) {
-  
-  get_deck(req.query.deck_choice, function (err, deck) {
-    console.log(deck);
-    
-    var card = get_random_card(deck);
+
+  // Similar to the api- but we render the review html as well.
+  var deck_choice = req.query.deck_choice;
+
+  get_random_card(deck_choice, function(err, card) {
 
     res.render('review', {
-      card: card
+      card: card,
+      review_deck: deck_choice
     });
   });
 });
