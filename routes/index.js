@@ -17,13 +17,13 @@ var get_available_decks = function (callback) {
 
       col.distinct('decks', function (err, distinct_deck_names) {
         if (err) throw err;
-        
+
         db.close();
         callback(null, distinct_deck_names);
 
       });
     });
-  
+
   });
 }
 
@@ -39,23 +39,28 @@ var get_deck = function (deck, callback) {
 
       col.find({decks: deck}).toArray(function (err, review_deck) {
         if (err) throw err;
-        
+
         db.close();
         callback(null, review_deck);
 
       });
     });
-  
+
   });
 }
 
 var get_random_card = function (deck, callback) {
   // Returns a random card in the deck array.
   get_deck(deck, function (err, deck_array) {
-    var random_card = deck_array[Math.floor(Math.random() * deck_array.length)];
+    // var rand_min = 20;
+    // var rand_range = 20;
+    // var random_index = rand_min + Math.floor(Math.random() * rand_range);
+    
+    var random_index = Math.floor(Math.random() deck_array.length);
+    var random_card = deck_array[random_index];
     callback(null, random_card);
   });
-}
+};
 
 // TODO :: Actually make that DB handler.
 // var card_db = require('card-db');

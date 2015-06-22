@@ -42,7 +42,7 @@ Goodness of Fit :: The match between the characteristics of the infant and his/h
 Attachment :: The bond that children may form with a caregiver.
 Stranger Anxiety :: Develops when infants are around 6-7 months ending around 18 months. If a stranger approaches, the infant becomes afraid and reaches for the caregiver for comfort and reassurance.
 Securely Attached :: Child uses the parent as a safe base to explore. When separated, the child may not cry during absence but will seek contact when the parent returns. Decrease crying if parent present (60% of US infants)
-Avoidant Attachment :: Unresponsive to parent when present, no disstress when they leave. React to stranger similar as to parent. Slow to greet parent when she returns. (20% of US infants)
+Insecure Avoidant Attachment :: Unresponsive to parent when present, no disstress when they leave. React to stranger similar as to parent. Slow to greet parent when she returns. (20% of US infants)
 Ambivalent/Resistant Attachment :: Seek closeness wiwth their parents. Fail to explore. Upon return display angry resistant behavior. Cannot be comforted. (15% of US infants)
 Disorganized/Disoriented Attachment :: Greatest amount of insecurity. In reunion show disorganized. Confused behaviors. Mothers are more avoidant and inconsistent with a lack of sensitivity to infant's needs. (5% of US infants)
 Authoritarian (Baumrind Parenting Style Research) :: Restrictive parenting. Insist on obedience. Preschoolers were moody. Easily annoyed. Unfriendly and less motivated.
@@ -50,7 +50,7 @@ Authoritative (Baumrind Parenting Style Research) :: Assume control with flexibi
 Permissive (Baumrind Parenting Style Research) :: Accepting and lax with few demands. Preschoolers were impulsive, aggressive, bossy, self centered, low in independence and achievement.
 Uninvolved (Maccoby Parenting Style Research) :: Removed or hostile parenting. Overwhelmed with own stressors. Have little time or energy to parent. Children of this parenting style are high in aggression, temper tantrums, perform poorly in classroom.
 Attachment and Contact Comfort :: Hypothesized that animals/humans need warmth, comfort as a primary need.
-Developmental Theories as Stage Theories :: Individual 
+Developmental Theories as Stage Theories :: Individuals must progress through stages in a particular order, stages build on each other. Progress is strongly related to age. Development is marked by discontinuities that result in dramatic transitions.
 Frustration :: When the pursuit of a goal is prevented.
 Stress :: Any circumstance that threatens or is percieved to threaten one's well being.
 Conflict :: Two or more competing and incompatible goals appear.
@@ -144,7 +144,7 @@ Gender Differences :: Found cross culturally; males place more emphasis on physi
 Passionate Love :: Intesely emotional and physcial.
 Companionate Love :: Deep affection, share emotional intimacy and friendship.
 Commitment :: Efforts to maintain the relationship with difficulties.
-Intimiacy [Sternberg Triangular Theory of Love] :: Encompasses feelings of attachment, closeness, connectedness, and bondedness.
+Intimiacy [Sternberg TKriangular Theory of Love] :: Encompasses feelings of attachment, closeness, connectedness, and bondedness.
 Passion [Sternberg Triangular Theory of Love] :: Encompasses drives connected to both limerence and sexual attraction.
 Commitment [Sternberg Triangular Theory of Love] :: Encompasses, in the short term, the decision to remain with another, and in the long term, plans made with that other.
 Prejudice :: Negative attitudes towards people based on irelevant characteristics or unconfirmed details.
@@ -157,3 +157,9 @@ Fundamental Attribution Error :: In contrast to the self-serving bias, we assume
 Group Membership :: We Categorize ourselves as "In Group" or "Out Group" and view our members on more favorable terms.
 Homogeneity Bias :: Believe those in the "out group" are all the same, although we see the diversity within our own group.
 Sherif Results :: working on a commmon task or goal (Superordinate Goal) is an effective way to reduce in/out group conflict.
+Fluid Intelligence :: The ability to see abstract relationships and draw logical inferences; the "processing part" of the brain.
+Crystallized Intelligence :: The ability to retain and use knowledge that was acquired through experience.
+Adolescent Egocentrism :: Way of thinking the world is focused on themselves 
+Imaginary Audience :: Refers to an egocentric state where an individual imagines and believes that multitudes of people are enthusiastically listening to or watching him or her. Though this state is often exhibited in young adolescence, people of any age may harbor a fantasy of an imaginary audience.
+Personal Fable :: View him/herself as somehow unique/important to the ‘story’ of life.
+Invincibility Fable :: Related to Elkind's adolecent egocentricism. Feelings of invincibility which accompany the the 'Personal Fable'.
