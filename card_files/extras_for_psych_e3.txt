@@ -1,0 +1,14 @@
+Odd/eccentric :: paranoid, schizoid, schizotypal
+Dramatic/Erratic :: antisocial, borderline, histrionic, narcissistic
+Anxious/Inhibited :: ocpd, dependent, avoidant
+Paranoid Personality Disorder :: Suspicious. Argumentative. Reluctant to confide in others because of fears information will be “used against” him/her. Looking out for trickery. Blame others and bears grudges.
+Schizoid Personality Disorder :: Have very few if any friends or family relationships. Loner, choosing solitary activities. Indifferent to praise or criticism. Shows no warm or tender feelings to other people.
+Schizotypal :: Bizarre or odd patterns in behavior. Old beliefs or magical thinking that influences behavior. Uses unusual words (vague, metaphorical). Inappropriate or constricted affect.
+Antisocial Personality Disorder :: Likes to break rules/laws. Deceitful. Gladly take advantage of people. Lacks remorse. Can appear charming/friendly. Often intelligent. History of conduct disorder.
+Borderline Personality Disorder :: Manipulative. Stable pattern of unstable relationships. Frantic efforts to avoid “abandonment”. Splitting: all good or bad. Self-mutilating behaviors. Impulsivity. Sexual promiscuity. Quick to anger.
+Histrionic Personality Disorder :: Overly dramatic. Everything is a trauma. Attention seekers. Seductive. Not genuine. Dependent on others.
+Narcissistic Personality Disorder :: Feelings of grandiosity. Sense of privilage. Feels special. Expect favors from others. Lacks empathy.
+Obsessive-Compulsive Personality Disorder :: Preoccupied with details that major point of activity is lost. Rules are essential. Particular . Serious and formal. Work gives pleasure. Reluctant to work with others unless they submit to doing things “exactly” his/her way.
+Avoidant Personality Disorder :: Excessively sensitive to rejection. Socially withdrawn.
+Dependent personality disorder :: Submissive and clinging behavior. Excessive need to be taken care of. Difficulty making decisions without an excessive amount of advice to reassurance from others. Has difficulty expressing disagreement with others because of fear of loss of support or approval. Feels helpless when alone and goes to great lengths to get nurturance from others.
+Schizophrenia :: Psychosis or condition involving distorted perceptions of reality and an inability to function in most aspects of life.
