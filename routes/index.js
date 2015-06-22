@@ -56,7 +56,7 @@ var get_random_card = function (deck, callback) {
     // var rand_range = 20;
     // var random_index = rand_min + Math.floor(Math.random() * rand_range);
     
-    var random_index = Math.floor(Math.random() deck_array.length);
+    var random_index = Math.floor(Math.random() * deck_array.length);
     var random_card = deck_array[random_index];
     callback(null, random_card);
   });
