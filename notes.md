@@ -1,6 +1,13 @@
 Flash-cards Project Notes
 =========================
 
+## Where was I?
+I finally got migrate.js to work. The Psych Midterm 2 cards are in the db "FCD_test" in the collection "decks". I should be able to access the whole thing. Now ...
+
+* I need to make an API that allows me to get specific elements from that DB.
+* Essentially, now that the data is in the DB, I should be retrieving from that location instead of rebuilding the damn deck every time.
+
+
 ## Scratch
 
 * Does this work as intended?
@@ -24,15 +31,19 @@ Flash-cards Project Notes
                 update_DOM(next_card);
             }```
 
-## Misc
-Testing
-* `$ DEBUG=flash-cards:* npm start`
-
-
 ## TODO
-* Implement preliminary UI
-    * Add card controls
-        * Next
-        * Show Def
-        * Prev
-    * Add global counter for deck index.
+* Add a selection form to the index page.
+    * Allow a user to select a deck of cards from a list.
+    * Post to index with desired deck.
+    * Allow buttons to select cards via asynch get.
+        * Can we create an api sort of thing that gets a json and updates the page?
+
+## Planned Features
+
+* Add Database Functionality
+* Select Card Deck
+* User Card Filtering
+    * Allow user to select the cards they want from a dropdown.
+* User Score/Stat Tracking
+* Single Page Revision
+

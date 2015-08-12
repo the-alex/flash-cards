@@ -108,7 +108,7 @@ Homeostasis [Biologica Needs/Motivations] :: Tendency for the body (person) to w
 Hunger / Food [Biologica Needs/Motivations] :: Engergy is necessary for maitenance and growth. Search for a balanced diet.
 Hypothalamus :: Primary structure of the brain which signals hunger and satiation.
 Lateral (near side) [Hypothalamus] :: Turns hunger "on". Stimulation yeilds increased eating. Lesion or damage can cause starvation.
-Ventromedial (lower, middle) is the hunger "off". Stimulation stopes eating. Lesion or damage can cause voracious eating.
+Ventromedial (lower, middle) :: the hunger "off". Stimulation stopes eating. Lesion or damage can cause voracious eating.
 Bulimia Nervosa :: Disorder characterized by binge eating followed by purging.
 Sexual Response Cycle :: Excitement, Plateau, Orgasm, Resolution.
 Social Learning Theory :: Proposes that human interaction is the primary factor in the development of personality.
